@@ -1,0 +1,14 @@
+{
+  "tauri": {
+    "windows": [
+      {
+        "title": "zzatGPT",
+        "url": "index.html",
+        "width": 630,
+        "height": 70,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}

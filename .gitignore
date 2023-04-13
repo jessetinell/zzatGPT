@@ -125,3 +125,25 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Tauri build output
+/dist/
+
+# Node modules
+/node_modules/
+crates/frontend/node_modules/
+
+# Build artifacts
+/target/
+
+# IDE files
+.vscode/
+.idea/
+
+
+*.afdesign
+.env.development
