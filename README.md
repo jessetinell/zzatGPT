@@ -1,10 +1,6 @@
 # zzatGPT
 zzatGPT is an app built to look and feel like the Spotlight app for Mac. Built with Tauri.
 
-# Local dev notes
-- cd into `crates/frontend` and run `npm install` for frontend packages.
-
-
 ## Prerequisites
 - [Tauri & Rust](https://tauri.app/v1/guides/getting-started/prerequisites)
 - [Yarn](https://yarnpkg.com)
@@ -36,26 +32,18 @@ Run the setup script
   cargo cmd setup
 ```
 
-<details>
-  <summary>To run in dev mode</summary>
-  
-  ### Developement mode
+Run in dev mode
   ```bash
   cargo cmd dev
   ```
-</details>
 
-<details>
-  <summary>To build a production app</summary>
-  
-  ### Production mode
+Build production app
   ```bash
   cargo cmd build
   ```
-</details>
 
 
-# Generate icons
+## Generate icons
 1. Place app-icon.png in `crates/backend`
 2. `cd crates/backend`
 3. Run `cargo tauri icon`
